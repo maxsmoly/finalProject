@@ -114,9 +114,86 @@ svg {
     padding: 20px;
 }
 
-/* .card {
-    border-style: none;
+.service_title {
+    width: 65%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card_block_1 {
+    padding-top: 111px;
+}
+
+/* .service_card {
+    width: 40px;
+    height: 412px;
+    background-color: #fff;
+    border: 1px solid red;
+    padding: -20px;
 } */
+
+.service_card {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 45px;
+    border-style: none;
+    margin-bottom: 30px;
+}
+
+.service_card h5 {
+    font-size: 19px;
+}
+
+.button_service {
+    width: 140px;
+    height: 50px;
+    border: 3px solid #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+}
+
+.service_card:hover {
+    background-color: #00897b;
+
+    color: #fff;
+    box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
+}
+
+.button_service:hover {
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: #00897b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 576px) {
     header {
