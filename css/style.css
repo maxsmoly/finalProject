@@ -17,9 +17,12 @@
     width: 100%;
     height: 117px;
     background-color: #ffffff;
-    background-size: cover;
-    background-position: center right;
-    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items {
+    padding-left: 50px;
 
 }
 
@@ -28,9 +31,9 @@ header {
     height: 623px;
     background: url(../img/pexels-photo-356056.jpeg\ копия.png);
     background-size: cover;
-    /* background-repeat: no-repeat; */
+
     background-position: center center;
-    /* background-attachment: fixed; */
+
 }
 
 .header_text {
