@@ -9,10 +9,18 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-
 }
 
+a,
+a:visited {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: none;
+}
+
+/* NAVIGATION________________________ */
 
 .nav_bg {
     width: 100%;
@@ -58,15 +66,14 @@
     fill: #00897b;
 }
 
+/* HEADER________________________ */
 
 header {
     width: 100%;
     height: 623px;
     background: url(../img/pexels-photo-356056.jpeg\ копия.png);
     background-size: cover;
-
     background-position: center center;
-
 }
 
 .header_text {
@@ -96,8 +103,6 @@ header {
 
 .header_button {
     padding-top: 100px;
-
-
 }
 
 button {
@@ -118,7 +123,11 @@ button:hover {
     border: 3px solid #00897b;
 }
 
-
+/* ABOUT_________________________________ */
+.about {
+    height: 638px;
+    background-color: #fff;
+}
 
 .about_title {
     width: 65%;
@@ -152,6 +161,13 @@ svg {
     padding: 20px;
 }
 
+/* SERVICE___________________________ */
+
+.service {
+    height: 1340px;
+    background-color: #e4fdf9;
+}
+
 .service_title {
     width: 65%;
     margin: auto;
@@ -163,8 +179,6 @@ svg {
 .card_block_1 {
     padding-top: 111px;
 }
-
-
 
 .service_card {
     text-align: center;
@@ -192,7 +206,6 @@ svg {
 
 .service_card:hover {
     background-color: #00897b;
-
     color: #fff;
     box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
     -webkit-box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
@@ -205,6 +218,14 @@ svg {
     background-color: #00897b;
 }
 
+/* CONTACT________________________ */
+
+.contact {
+    height: 1188px;
+    background: url(../img/rawpixel-com-252127.png);
+    background-size: cover;
+    background-position: center center;
+}
 
 .contact_text {
     width: 100%;
@@ -240,8 +261,6 @@ svg {
     background-color: rgb(57, 73, 171, .35);
     border-radius: 50%;
     margin: auto;
-
-
 }
 
 .contact_row {
@@ -255,19 +274,17 @@ svg {
 
 .contact_item {
     padding-top: 35px;
+
+}
+
+.contact_item a {
+    color: #fff;
 }
 
 .images_circle svg {
     fill: #fff;
     margin: 20%;
 }
-
-.form_btn {
-    /* text-align: right;
-    margin: 32px 0px 94px 0px; */
-}
-
-
 
 form {
     margin: auto;
@@ -281,7 +298,6 @@ form {
     width: 100%;
     border-radius: 15px;
     border-style: none;
-
 }
 
 .form_mail {
@@ -299,8 +315,6 @@ form {
     margin-top: 32px;
 }
 
-
-
 .form_button {
     width: 200px;
     height: 65px;
@@ -309,7 +323,21 @@ form {
     border-radius: 15px;
 }
 
+/* FOOTER________________________________ */
 
+footer {
+    height: 54px;
+    background-color: #fff;
+
+
+}
+
+footer p {
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
 
 
 
@@ -328,35 +356,4 @@ form {
         background-size: cover;
         background-position: center center;
     }
-}
-
-.about {
-    height: 638px;
-    background-color: #fff;
-}
-
-.service {
-    height: 1340px;
-    background-color: #e4fdf9;
-}
-
-.contact {
-    height: 1188px;
-    background: url(../img/rawpixel-com-252127.png);
-    background-size: cover;
-    background-position: center center;
-}
-
-footer {
-    height: 54px;
-    background-color: #fff;
-
-
-}
-
-footer p {
-    text-align: center;
-    line-height: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
 }
