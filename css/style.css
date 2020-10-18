@@ -212,11 +212,11 @@ svg {
     -moz-box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
 }
 
-.button_service:hover {
+/* .button_service:hover {
     border: 3px solid #fff;
     color: #fff;
     background-color: #00897b;
-}
+} */
 
 /* CONTACT________________________ */
 
