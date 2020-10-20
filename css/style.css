@@ -20,6 +20,11 @@ a:hover {
     text-decoration: none;
 }
 
+:focus,
+:active {
+    outline: none;
+}
+
 /* NAVIGATION________________________ */
 
 .hamburger-menu {
@@ -108,7 +113,7 @@ a:hover {
 
 .logo:hover {
     text-decoration: none;
-    color: #000;
+    color: #00897b;
     font-size: 32px;
 
 }
@@ -128,7 +133,7 @@ a:hover {
 
 header {
     width: 100%;
-    height: 623px;
+    height: 100%;
     background: url(../img/pexels-photo-356056.jpeg\ копия.png);
     background-size: cover;
     background-position: center center;
@@ -136,7 +141,7 @@ header {
 
 .header_text {
     width: 100%;
-    height: 623px;
+    height: 100%;
     background-color: rgba(0, 0, 0, .85);
     display: flex;
     flex-direction: column;
@@ -183,7 +188,7 @@ button:hover {
 
 /* ABOUT_________________________________ */
 .about {
-    height: 638px;
+    height: 100%;
     background-color: #fff;
 
 }
@@ -223,7 +228,7 @@ svg {
 /* SERVICE___________________________ */
 
 .service {
-    height: 1340px;
+    height: 100%;
     background-color: #e4fdf9;
 }
 
@@ -280,7 +285,7 @@ svg {
 /* CONTACT________________________ */
 
 .contact {
-    height: 1188px;
+    height: 100%;
     background: url(../img/rawpixel-com-252127.png);
     background-size: cover;
     background-position: center center;
@@ -288,7 +293,7 @@ svg {
 
 .contact_text {
     width: 100%;
-    height: 1188px;
+    height: 100%;
     background-color: rgba(0, 0, 0, .35);
     display: flex;
     flex-direction: column;
@@ -377,8 +382,9 @@ form {
 }
 
 .form_button {
-    width: 200px;
+    width: 300px;
     height: 65px;
+    margin: 20px auto;
     background-color: #e4e4e4;
     color: #232323;
     border-radius: 15px;
@@ -410,7 +416,7 @@ footer p {
 
 
 
-
+/* 
 
 @media (max-width: 768px) {
     nav {
@@ -506,7 +512,7 @@ footer p {
     }
 
     .about {
-        /* height: 1338px; */
+        height: 1338px;
         background-color: #fff;
         overflow-y: hidden;
     }
@@ -567,13 +573,13 @@ footer p {
     .about {
         height: 800px;
         background-color: #fff;
-        /* overflow-y: hidden; */
+        
     }
 
     .service {
         height: 1500px;
         background-color: #e4fdf9;
-        /* overflow-y: hidden; */
+        /
     }
 
     .contact {
@@ -604,4 +610,4 @@ footer p {
 
 
 
-}
+} */
