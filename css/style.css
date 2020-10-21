@@ -27,7 +27,14 @@ a:hover {
 
 /* NAVIGATION________________________ */
 
-.hamburger-menu {
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+/* .hamburger-menu {
     display: none;
 
 }
@@ -92,7 +99,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .logo {
     font-size: 30px;
@@ -103,18 +110,18 @@ a:hover {
 
 .nav-link {
     font-size: 20px;
-    color: #000;
+    color: #000 !important;
     font-weight: 400;
 }
 
 .nav-link:hover {
-    color: #00897b;
+    color: #00897b !important;
 }
 
 .logo:hover {
     text-decoration: none;
-    color: #00897b;
-    font-size: 32px;
+    color: #00897b !important;
+
 
 }
 
@@ -124,8 +131,7 @@ a:hover {
 }
 
 .search:hover {
-    width: 17px;
-    height: 17px;
+
     fill: #00897b;
 }
 
@@ -165,10 +171,10 @@ header {
 }
 
 .header_button {
-    padding-top: 100px;
+    padding: 100px 100px;
 }
 
-button {
+.header_button button {
     width: 209px;
     height: 60px;
     margin: 20px;
@@ -181,7 +187,7 @@ button {
     background-color: rgba(0, 0, 0, .1);
 }
 
-button:hover {
+.header_button button:hover {
     background-color: #00897b;
     border: 3px solid #00897b;
 }
@@ -190,6 +196,7 @@ button:hover {
 .about {
     height: 100%;
     background-color: #fff;
+    padding-bottom: 50px;
 
 }
 
@@ -230,6 +237,7 @@ svg {
 .service {
     height: 100%;
     background-color: #e4fdf9;
+    padding-bottom: 50px;
 }
 
 .service_title {
@@ -242,6 +250,19 @@ svg {
 
 .card_block_1 {
     padding-top: 111px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
 }
 
 .service_card {
@@ -268,7 +289,7 @@ svg {
     background-color: #fff;
 }
 
-.service_card:hover {
+.service_card .card-body>button:hover {
     background-color: #00897b;
     color: #fff;
     box-shadow: 1px -1px 10px 6px rgba(0, 0, 0, 0.23);
@@ -385,9 +406,18 @@ form {
     width: 300px;
     height: 65px;
     margin: 20px auto;
-    background-color: #e4e4e4;
-    color: #232323;
+    border: 0px solid #fff;
+    background-color: #fff;
+    color: #000;
     border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.form_button:hover {
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: #00897b;
 }
 
 /* FOOTER________________________________ */
@@ -414,7 +444,20 @@ footer p {
 
 
 
-
+@media (max-width: 768px) {
+    .header_button button {
+        width: 150px;
+        height: 60px;
+        margin: 10px;
+        border: 3px solid #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .1);
+    }
+}
 
 /* 
 
